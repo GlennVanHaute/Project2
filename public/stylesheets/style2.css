@@ -1,0 +1,137 @@
+@font-face {
+    font-family: regular;
+    src: url('ProximaNova-Regular.otf');
+}
+@font-face {
+    font-family: light;
+    src: url('ProximaNova-Light.otf');
+}
+body {
+font-family: regular;
+font-size: 1.5em;
+height:100%;
+}
+
+h2{
+	padding: Opx;
+}h4{
+	padding: Opx;
+}
+html { 
+  background: url("../images/background2.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	height:100%;
+
+}
+.container{
+    width:100%;
+/*    height: 100%;*/
+    float: left;
+}
+.leftside{
+	width: 100%;
+	float: left;
+	
+}
+
+#topright{
+	height: 100px;
+	background-color: #c63746;
+	color: whitesmoke;
+}
+h1{
+	padding-top:80px;
+	padding-left: 5px;
+
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color: #201e3e;
+}
+.circle {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+	background-image: url("http://www.geonames.org/flags/x/jm.gif");
+	    background-position: center; 
+
+    background-size: 200px 160px;
+    background-color: mediumturquoise;
+    display: block;
+    margin: -75px auto 0 auto;
+}
+.land{
+	padding-top: 10px;
+	font-size: 1.2em;
+	color: whitesmoke;
+	text-align: center;
+}
+
+.capital{
+	color: whitesmoke;
+	font-family: light;
+	font-size: 0.9em;
+}
+#capital{
+	color: #c63746;
+	margin-top:30px;
+	margin-left: 20%;
+
+
+}
+.currency{
+	color: whitesmoke;
+	font-family: light;
+	font-size: 0.9em;
+}
+#currency{
+	color: #c63746;
+	margin-top:30px;
+	margin-left: 20%;
+
+}
+.languages{
+	color: whitesmoke;
+	font-family: light;
+	font-size: 0.9em;
+
+}
+#languages{
+	color: #c63746;
+	margin-top:30px;
+	margin-left: 20%;
+
+}
+
+
+#spinagain{
+text-align: center;
+	color: whitesmoke;
+	padding-top: 60px;
+	border: 1px;
+
+}
+.myButton {
+	-moz-box-shadow:inset 0px 1px 0px 0px #c63745;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #c63745;
+	box-shadow:inset 0px 1px 0px 0px #c63745;
+	background-color:#c63745;
+	border:1px solid #a32d3b;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:18px;
+	padding:12px 26px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#c63745;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Spin to win</title>
+<meta name=viewport
+  content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height">
+	<link rel="stylesheet" href="stylesheets/reset.css">
+	<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="stylesheets/style.css">
+	<link rel="stylesheet" href="stylesheets/lightbox.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="/socket.io/socket.io.js"></script>
+
+	<script src="javascripts/script.js">	</script>	
+</head>
+<body>
+	<div class="container">
+		
+		<div id="header">
+			<h1>Swipe the globe to get your location!</h1>
+		</div>
+<div class="box">
+		<div id="earth" class="earth1">
+			<img src="" alt="">
+			
+		</div>
+		</div>
+		<div id="travelwith">
+			<div id="titleTw"><h1>Travel with</h1></div>
+			
+			<div class="leftbox"></div>
+
+					  <label id="vliegtuig">
+						<input type="radio" name="travelwith" value="plane" checked="checked" />
+						<img  src="../images/icons/plane.png">
+  					  </label>
+  					  <label id="auto">
+						<input type="radio" name="travelwith" value="car" />
+						<img  src="../images/icons/car.png">
+  					  </label>
+  					  <label id="trein">
+						<input type="radio" name="travelwith" value="train" />
+						<img  src="../images/icons/Train.png">
+  					  </label>
+			<div class="rightbox"></div>
+
+		</div>
+
+	</div>
+</body>
+</html>
