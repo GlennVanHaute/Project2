@@ -25,9 +25,7 @@ Code voor alle landen in database te steken:
 					console.log(landgegevens);
 				}); 
 			}
-			var land = data[Math.floor(Math.random()*data.length)];
-			var region = land.region;
-						io.emit('land', land);
+
 
 			
 		});
