@@ -29,3 +29,5 @@ Code voor alle landen in database te steken:
 
 			
 		});
+Command line code voor het importeren van de steden database. 
+	cd database && mongoimport --db Pointme --collection cities --file cities.json
